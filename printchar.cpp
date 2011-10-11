@@ -1,17 +1,7 @@
-/* 
- * File:   printchar.cpp
- * Author: suyang1
- *
- * Created on April 20, 2011, 8:44 PM
- */
-
 #include <cstdlib>
 #include <stdio.h>
 using namespace std;
 
-/*
- * 
- */
 int main(int argc, char** argv) {
     
 
@@ -24,4 +14,3 @@ int main(int argc, char** argv) {
     fclose (stdout);
     return 0;
 }
-
